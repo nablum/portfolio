@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="102.76" height="47.897" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>Linear Technology Corporation logo</title>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Linear Technology Corporation logo</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Linear Technology Corporation</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Linear Technology Corporation</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>http://www.linear.com</dc:source>
+    <dc:date>2015-07-22</dc:date>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-1.0979 -180.69)">
+  <g transform="matrix(2.1869 0 0 2.1869 -128.49 -244.89)">
+   <g fill="#8e0a26">
+    <path d="m79.778 194.62c-3.895 0-8.5025 3.5613-10.64 11.662-1.335 3.4725-4.7188 9.4163-9.8825 10.216l24.735 0.01 1.6188-3.01h-5.02c-1.6575-0.1337-8.5575-1.7363-5.6638-9.8825 3.4712-9.7762 5.3862-8.9925 4.8525-8.9925"/>
+    <path d="m85.722 216.5c3.8938 0 8.5038-3.5625 10.64-11.664 1.3362-3.4725 4.7175-9.415 9.8838-10.216l-24.735-6e-3 -1.62 3.0112h5.02c1.6588 0.1325 8.5588 1.7363 5.665 9.8813-3.4738 9.7775-5.3875 8.9937-4.8538 8.9937"/>
+   </g>
+  </g>
+ </g>
+</svg>
