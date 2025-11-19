@@ -1,0 +1,13 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular black background -->
+  <circle cx="300" cy="300" r="300" fill="black"/>
+
+  <!-- Music note (white) -->
+  <g fill="white">
+    <!-- Note head -->
+    <circle cx="260" cy="360" r="90"/>
+
+    <!-- Note stem -->
+    <rect x="330" y="120" width="40" height="330" />
+  </g>
+</svg>
