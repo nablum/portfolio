@@ -217,6 +217,18 @@
             ],
           },
           {
+            title: "sonatino-idf",
+            description:
+              "ESP-IDF template for the Sonatino board. Alternative to Arduino or PlatformIO.",
+            github: "https://github.com/nablum/sonatino-idf",
+            visibility: "Open Source",
+            stack: [
+              "C",
+              "C++",
+              "CMake",
+            ],
+          },          
+          {
             title: "myEQ",
             description:
               "A custom audio EQ plugin built with JUCE and CMake.",
