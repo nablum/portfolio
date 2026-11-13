@@ -1,0 +1,25 @@
+.root {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.content {
+  display: inline-block;
+  color: #ffffff;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 0.25rem;
+  /* Blinks with an ease-in-out cubic curve, 0.5s per half-period. */
+  animation: blink 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite alternate;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
