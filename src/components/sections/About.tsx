@@ -6,6 +6,7 @@ import { MotionText } from "@/components/motion";
 import { Section } from "@/components/layout/Section";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { profile } from "@/data/profile";
+import { yearsSince } from "@/lib/experience";
 
 const reveal = {
   initial: { opacity: 0, y: 30 },
@@ -20,7 +21,7 @@ const socialLinks: { label: string; href: string; icon: LucideIcon }[] = [
 
 export function About() {
   return (
-    <Section id="about" py={16}>
+    <Section id="about" pt={16} pb={0}>
       <VStack spacing={8} align="flex-start">
         <SectionTitle {...reveal} transition={{ duration: 0.8, ease: "easeOut" }}>
           About Me
@@ -33,7 +34,7 @@ export function About() {
           color="gray.300"
           maxW="7xl"
         >
-          {profile.about}
+          {profile.about(yearsSince(profile.careerStart))}
         </MotionText>
 
         <Flex gap={6}>

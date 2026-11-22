@@ -2,10 +2,12 @@ export const profile = {
   firstName: "Hugo",
   fullName: "Hugo Besnard",
   /** Short description used in the page metadata. */
-  headline: "Electronics and embedded software engineer.",
+  headline: "Embedded systems engineer.",
   tagline: "Embedded Software Developer. Hardware Designer. Audio Tech Enthusiast.",
-  about:
-    "Hi, I’m Hugo. I’m an Electronics Engineer with 3+ years of experience developing audio systems for commercial use and personal innovation. My expertise includes embedded systems, hardware design, digital signal processing and acoustic analysis. I’m always seeking to expand my knowledge and explore new professional opportunities. Let’s connect!",
+  /** Start of professional career, used to compute the years of experience. */
+  careerStart: "2021-09",
+  about: (years: number) =>
+    `Hi, I’m Hugo, an embedded systems engineer with ${years}+ years of experience building products from the circuit board to the firmware. I work across embedded software, electronic design and real-time signal processing, with a background in acoustics.`,
   contactIntro: "I'm always looking to learn and collaborate on new ideas. Let's connect!",
   /** Name displayed in the footer copyright notice. */
   copyrightHolder: "Hugo Besnard",
