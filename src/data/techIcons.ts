@@ -1,6 +1,8 @@
 /**
  * Technology logos used across the site (dark variants).
- * Inline SVGs come from the "tech-stack-icons" set; the others are served from /public/images.
+ * Inline SVGs come from the "tech-stack-icons" set; the others are served from /public/images
+ * (STM32 and SolidWorks/3DS marks from Simple Icons, KiCad from its GitHub avatar,
+ * Zephyr from the Zephyr Project logo, Jenkins from Wikimedia Commons).
  */
 export type TechIcon = { svg: string } | { src: string };
 
@@ -40,6 +42,11 @@ export const techIcons = {
   arm: { src: "/images/arm.svg" },
   arduino: { src: "/images/arduino.svg" },
   daisyseed: { src: "/images/daisyseed.svg" },
+  stm32: { src: "/images/stm32.svg" },
+  zephyr: { src: "/images/zephyr.svg" },
+  kicad: { src: "/images/kicad.png" },
+  solidworks: { src: "/images/solidworks.svg" },
+  jenkins: { src: "/images/jenkins.svg" },
 } satisfies Record<string, TechIcon>;
 
 export type TechIconName = keyof typeof techIcons;

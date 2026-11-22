@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 -45 252 252" width="100" height="100">
+  <!-- Zephyr Project mark (from the official logo, wordmark removed). -->
+  <defs>
+    <linearGradient id="z1" x1="173.22662" y1="83.041153" x2="269.62073" y2="83.041153" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7929d2"/><stop offset="1" stop-color="#0070c5"/>
+    </linearGradient>
+    <linearGradient id="z2" x1="179.78728" y1="-1.87884" x2="178.9799" y2="93.40757" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00aeff"/><stop offset="1" stop-color="#9454db"/>
+    </linearGradient>
+    <linearGradient id="z3" x1="232.84549" y1="37.632019" x2="212.26581" y2="1.98698" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66a9dc"/><stop offset="1" stop-color="#b1e4fa"/>
+    </linearGradient>
+    <linearGradient id="z4" x1="237.4232" y1="9.7026796" x2="249.11588" y2="90.576942" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00aeff"/><stop offset="1" stop-color="#9454db"/>
+    </linearGradient>
+  </defs>
+  <polygon fill="#7929d2" points="137.154,121.601 105.31,135.046 132.385,148.72"/>
+  <polygon fill="#9454db" points="68.401,139.419 34.434,126.703 42.309,153.408"/>
+  <polygon fill="#af7fe4" points="84.508,115.518 105.31,135.046 68.401,139.419"/>
+  <polygon fill="#af7fe4" points="38.535,97.167 34.434,126.703 8.759,101.076"/>
+  <polygon fill="url(#z1)" points="137.154,121.601 220.982,44.482 258.666,94.416"/>
+  <polygon fill="url(#z2)" points="137.154,121.601 172.959,8.13 220.982,44.482"/>
+  <polygon fill="url(#z3)" points="172.959,8.13 258.666,8.13 220.982,44.482"/>
+  <polygon fill="url(#z4)" points="258.666,94.416 258.666,8.13 220.982,44.482"/>
+</svg>
