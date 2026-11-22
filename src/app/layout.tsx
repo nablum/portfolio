@@ -16,7 +16,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={inter.variable} suppressHydrationWarning>
-      <body>
+      {/* Chakra's color-mode script adds a class on <body> before hydration. */}
+      <body suppressHydrationWarning>
         <ColorModeScript initialColorMode="dark" />
         <Providers>{children}</Providers>
       </body>
