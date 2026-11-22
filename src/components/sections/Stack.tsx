@@ -8,8 +8,8 @@ import { TechIcon } from "@/components/ui/TechIcon";
 import { stackGroups, type StackGroup as StackGroupData } from "@/data/stack";
 import { useSectionInView } from "@/hooks/useSectionInView";
 
-/** Entrance delay (s) of each group, in display order. */
-const GROUP_DELAYS = [0.1, 0.3, 0.2];
+/** Delay (s) between the entrance of two consecutive groups. */
+const GROUP_STAGGER = 0.1;
 
 export function Stack() {
   const { ref, isInView } = useSectionInView<HTMLDivElement>();
@@ -26,7 +26,7 @@ export function Stack() {
             <MotionBox
               key={group.title}
               {...fadeUp(isInView, 20)}
-              transition={{ duration: 0.5, delay: GROUP_DELAYS[index] ?? 0 }}
+              transition={{ duration: 0.5, delay: GROUP_STAGGER * (index + 1) }}
             >
               <StackGroup group={group} />
             </MotionBox>
